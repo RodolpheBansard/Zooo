@@ -1,8 +1,8 @@
 public class App {
 
-    private Zoo zoo;
+    private static Zoo zoo;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws LimiteVisiteurException {
         
     }
 }

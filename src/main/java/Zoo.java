@@ -6,8 +6,8 @@ public class Zoo {
     private List<Secteur> secteursAnimaux;
 
 
-    public Zoo(int visiteurs) {
-        this.visiteurs = visiteurs;
+    public Zoo() {
+        this.visiteurs = 0;
         this.secteursAnimaux = new ArrayList<Secteur>();
     }
 
